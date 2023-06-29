@@ -1,7 +1,7 @@
 /*!
   * Loom v1.0.0 (https://github.com/dfralan/loom)
   * Copyright 2023 The Teller Authors.
-  * Licensed under GNU GENERAL PUBLIC LICENSE (https://github.com/dfralan/loom/LICENSE)
+  * Licensed under MIT LICENSE (https://github.com/dfralan/loom/LICENSE)
 
 IA ADVANCE TRANSLATION PROMPT:
 Can you be me my personal translator for spanish, portugues, frances e italiano?, if i say:
