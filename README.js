@@ -1,4 +1,4 @@
-# loom.js
+js# loom.js
 Loom is a language translation library written in pure javascript, that allows you to easily translate content on your website into different languages. It provides a simple way to integrate multilingual support and dynamically update the content based on the user's language preference.
 
 ** Updates 🤖 **
