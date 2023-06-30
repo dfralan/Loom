@@ -2,59 +2,6 @@
   * Loom v1.0.0 (https://github.com/dfralan/loom)
   * Copyright 2023 The Teller Authors.
   * Licensed under MIT LICENSE (https://github.com/dfralan/loom/LICENSE)
-
-IA ADVANCE TRANSLATION PROMPT:
-Can you be me my personal translator for spanish, portugues, frances e italiano?, if i say:
-loom "Product" you will return in this format, got it?
-"Product": {
-    "us": "Product",
-    "es": "Producto",
-    "pt": "Produto",
-    "fr": "Produit",
-    "it": "Prodotto"
-}
-
-IA SIMPLE TRANSLATION PROMPT:
-Can you be me my personal translator for english, spanish, portugues, frances e italiano?, if i say:
-loom "Product" you will return in order and in this format, separated by  ?? , got it?
-"Product ?? Producto ?? Produto ?? Produit ?? Prodotto"
-
-<!-- Language Selector -->
-<!-- You can add the flag by adding the attribute 'flag', and modify the shape by setting its value to circular ('circular'), rounded ('rounded'), or squared by leaving the attribute blank -->
-<loom flag>
-  <a loom-indicator></a>
-  <ul loom-list>
-    <li loom-language="us"></li>
-    <li loom-language="ar"></li>
-    <li loom-language="br"></li>
-    <li loom-language="fr"></li>
-    <li loom-language="it"></li>
-  </ul>
-</loom>
-
-<!-- Plain Label Application -->
-<h1 loom="Hello ?? Hola ?? Ola ?? Bonjour ? Ciao"></h1>
-   
-<!-- Attribute Content Applications -->
-<!-- Add 'loom-' as prefix to any attribute you want to set, it will react on changes or even on its creation. (Always add the 'loom' attribute first so 'loom' can observe it.) -->
-<input loom-placeholder="Enter email ?? Ingrese su correo ?? Digite seu e-mail" loom>
-<input loom-value="abc@example.com ?? abc@ejemplo.com ?? abc@exemplo.com abc@exemple.com ?? abc@esempio.com ??" loom>
-   
-<!-- Advance Applications -->
-<!-- In case you deal with a large amount of code, or even are working with a team of translators, you can always fall back on loom matching, just set the default or global phrase, and loom will match the translated phrase based on the browser language, or the selected one by the user, if it doesn't find a match, it will keep the default phrase. -->
-<h1 loom="Hello Dora"></h1>
-    
-<script>
-  const loomTranslations = {
-    "Hello Dora": {
-      "us": "Hello Dora",
-      "ar": "Hola Dora",
-      "br": "Alô Dora",
-      "fr": "Bonjour Dora",
-      "it": "Ciao Dora"
-    },
-  }
-</script>
 */
 
 (function () {
