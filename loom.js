@@ -301,7 +301,7 @@
             let aLower = a.toLowerCase()
             let imgWidth = '18';
             let d = getCountryName(aUpper).svg
-            svgSrc = `data:image/svg+xml,${encodeURIComponent(d)}`;
+            var svgSrc = `data:image/svg+xml,${encodeURIComponent(d)}`;
             let hasFlag = loomTag.hasAttribute('flag');
             let ind = '<span>' + " " + aLower + '</span>'
             let flag = '<span><img src="' + svgSrc + '" width="' + imgWidth + '"></span>'
