@@ -303,7 +303,7 @@
             let d = getCountryName(aUpper).svg
             var svgSrc = `data:image/svg+xml,${encodeURIComponent(d)}`;
             let hasFlag = loomTag.hasAttribute('flag');
-            let ind = '<span>' + " " + aLower + '</span>'
+            let ind = '<span>' + aLower + '</span>'
             let flag = '<span><img src="' + svgSrc + '" width="' + imgWidth + '"></span>'
             var indicator = hasFlag ? flag + ind : ind;
             return {
