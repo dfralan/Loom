@@ -251,7 +251,7 @@
         ];
 
         // If there is no loom selector return.
-        const loomTag = document.getElementsByTagName("loom")[0] || false;
+        const loomTag = document.getElementsByTagName("loom")[0] || (document.getElementsByTagName("Loom")[0] || false);
         if (!loomTag) {
             console.log("No loom language selector. Add it so loom can run.")
             return;
