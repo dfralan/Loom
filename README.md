@@ -14,7 +14,7 @@ Loom is a language translation library written in pure javascript, that allows y
 - Include the loom CDN in your HTML file:
 
 ```bash
-<script src="https://cdn.jsdelivr.net/gh/dfralan/loom@main/src/js/loom.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dfralan/goloom@main/src/js/loom.js"></script>
 ```
 
 - Add the loom HTML markup to your page:
